@@ -1,0 +1,115 @@
+/* 
+body{
+    margin: 0px;
+    background-color:linear-gradient(135deg,#0396FF 10%,  #ABDCFF 150%);
+} */
+.header{
+    /* background-color: linear-gradient( 135deg,#0396FF 10%,  #ABDCFF 150%);   */
+    background-color:#0396FF;  
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_img {
+    width: 180px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.header__menu{
+    margin-right: 70px;
+}
+.header__menu--profile{
+    margin-right: 8px;
+    width: 40px;
+    display:flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header__menu--profile img {
+    margin-right: 8px;
+    width: 40px;
+}
+/* h1{
+    color: white;
+    font-family: 'STIX Two Text', serif;
+    /* align-items:flex-start; */
+    /* display:block; */
+    /* margin-right: 1000px; */
+    /* height: 0em; */
+    /* align-items: center; */
+/* } */
+
+.header__menu--profile p{
+    margin: 0px;
+    color:white;
+}
+.main{
+   height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main__title {
+    color: white;
+    font-size: 25px;
+}
+.input{
+    background-color: rgba(255, 255,255, 0.1);
+    background-size: 1.5em;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 95%;
+    border: 2px solid #FFF;
+    border-radius: 25px;
+    width: 45vw;
+    height: 2em;
+    font-size: 20px;
+    padding: 0px 15px;
+    color: #FFF
+}
+
+::placeholder{
+    color: white;
+}
+.header__menu ul{
+    display: none;
+    list-style: none;
+    padding: 0px;
+    position: absolute;
+    width: 100px;
+    text-align: right;
+    margin: 0px 0px 0px -14px;
+}
+
+.header__menu:hover ul, ul:hover {
+    display: block;
+}
+
+.header__menu li {
+    margin: 10px 0px;
+}
+.header__menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.header__menu li a:hover{
+    text-decoration: underline;
+}
+
+body {
+    margin: 0px;
+    background-color:#0396FF;
+    font-family: 'Mulish', sans-serif;
+  }
+
+.texto-lado{
+    position:absolute;
+    top: 20px;
+    left: 16%;
+
+}
